@@ -2,9 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Hero from "./Hero";
-import TrustStrip from "./TrustStrip";
-import OfferStack from "./OfferStack";
-import Footer from "./Footer";
 import { C } from "../data/constants";
 
 export default function HomeClient() {
@@ -18,9 +15,34 @@ export default function HomeClient() {
 
   return (
     <div style={{ background: C.bg, color: C.text, minHeight: "100vh" }}>
-      <div style={{ padding: 100 }}>TEST: HERO + TRUST</div>
+      {/* NAV */}
+      <div
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          right: 0,
+          padding: "16px 24px",
+          background: scrolled ? "#0A0A0BEE" : "transparent",
+          borderBottom: scrolled ? `1px solid ${C.border}` : "none",
+          display: "flex",
+          justifyContent: "space-between",
+          zIndex: 1000,
+        }}
+      >
+        <div style={{ fontWeight: 700 }}>unignore</div>
+        <a href="/about" style={{ color: C.muted, textDecoration: "none" }}>
+          About
+        </a>
+      </div>
+
+      {/* HERO ISOLATION TEST */}
+      <div style={{ paddingTop: 120, padding: 100 }}>
+        HERO ISOLATION TEST
+      </div>
+
+      {/* ORIGINAL HERO */}
       <Hero />
-      <TrustStrip />
     </div>
   );
 }

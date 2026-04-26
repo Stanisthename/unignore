@@ -1,7 +1,5 @@
+import HomeClient from "../components/home/HomeClient";
+
 export default function Page() {
-  return (
-    <div style={{ padding: 100 }}>
-      PAGE.JS TEST — ROOT LEVEL
-    </div>
-  );
-} 
+  return <HomeClient />;
+}

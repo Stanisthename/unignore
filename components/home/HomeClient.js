@@ -18,8 +18,9 @@ export default function HomeClient() {
 
   return (
     <div style={{ background: C.bg, color: C.text, minHeight: "100vh" }}>
-      <div style={{ padding: 100 }}>TEST: HERO ONLY</div>
+      <div style={{ padding: 100 }}>TEST: HERO + TRUST</div>
       <Hero />
+      <TrustStrip />
     </div>
   );
 }

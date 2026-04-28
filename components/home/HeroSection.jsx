@@ -57,14 +57,17 @@ export default function HeroSection({ headshot = "/headshot.png" }) {
         </div>
 
         <div>
-          <img
-            src={headshotUrl}
-            style={{
-              width: "100%",
-              borderRadius: 16,
-              border: `2px solid ${C.amber}`
-            }}
-          />
+          <img src={HEADSHOT_URL}
+  alt="Stan Jakim"
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    objectPosition: "center top",
+    borderRadius: 18
+  }}
+/>
+          
         </div>
 
       </div>

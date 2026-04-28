@@ -57,7 +57,7 @@ export default function HeroSection({ headshot = "/headshot.png" }) {
         </div>
 
         <div>
-          <img src={HEADSHOT_URL}
+          <img src={"/headshot.png"}
   alt="Stan Jakim"
   style={{
     width: "100%",

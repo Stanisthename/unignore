@@ -1,8 +1,7 @@
 "use client";
 
 import { C } from "../../data/constants";
-
-export default function HeroSection( "/headshot.png" ) {
+export default function HeroSection({ headshot = "/headshot.png" }) {
   return (
     <section style={{
       minHeight: "100vh",

@@ -2,7 +2,7 @@
 
 import { C } from "../../data/constants";
 
-export default function HeroSection({ headshotUrl }) {
+export default function HeroSection({ "/headshot.png" }) {
   return (
     <section style={{
       minHeight: "100vh",

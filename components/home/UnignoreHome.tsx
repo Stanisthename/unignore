@@ -99,7 +99,7 @@ export default function UnignoreHome() {
             }}>
               <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#D97706' }} />
               <span style={{ fontFamily: 'DM Mono, monospace', fontSize: 11, color: '#D97706', letterSpacing: '0.08em' }}>
-                35-YEAR MARKETING VETERAN
+                Conversion by Design
               </span>
             </div>
 
